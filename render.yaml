@@ -6,6 +6,6 @@ services:
     region: frankfurt
     envVars:
       - key: PORT
-        value: 10000
+        value: 8080
       - key: HTTP_WORKERS
         value: 2
