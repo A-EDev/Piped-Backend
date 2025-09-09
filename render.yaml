@@ -9,5 +9,5 @@ services:
         value: 8080
       - key: HTTP_WORKERS
         value: 2
-      - Key: DATABASE_URL
-        Value: jdbc:postgresql://dpg-d2vvq7fdiees738qnvr0-a:5432/piped_fclz?user=ae&password=JlTweX71KtuA6SM9nUnMulByQhgV6NdC
+      - key: POSTGRES_URL
+        value: "jdbc:postgresql://dpg-d2vvq7fdiees738qnvr0-a:5432/piped_fclz?user=ae&password=JlTweX71KtuA6SM9nUnMulByQhgV6NdC"
