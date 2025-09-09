@@ -9,3 +9,5 @@ services:
         value: 8080
       - key: HTTP_WORKERS
         value: 2
+      - Key: DATABASE_URL
+        Value: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
